@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Local Business Support - Contact</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 20px; background: #f9f9f9; }
+    nav a { margin: 0 15px; text-decoration: none; color: #007BFF; font-weight: bold; }
+    nav a:hover { text-decoration: underline; }
+    header { text-align: center; margin-bottom: 40px; }
+    form { background: white; padding: 20px; border-radius: 8px; border: 1px solid #ddd; max-width: 400px; margin: auto; }
+    input, textarea { width: 100%; padding: 8px; margin-top: 4px; border-radius: 4px; border: 1px solid #ccc; }
+    button { background-color: #007BFF; color: white; padding: 10px 15px; border: none; border-radius: 4px; cursor: pointer; }
+    button:hover { background-color: #0056b3; }
+  </style>
+</head>
+<body>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="businesses.html">Businesses</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+
+  <header>
+    <h1>Contact a Business</h1>
+  </header>
+
+  <form>
+    <label for="name">Your Name:</label><br>
+    <input type="text" id="name" name="name" required><br><br>
+
+    <label for="email">Your Email:</label><br>
+    <input type="email" id="email" name="email" required><br><br>
+
+    <label for="message">Message:</label><br>
+    <textarea id="message" name="message" rows="5" required></textarea><br><br>
+
+    <button type="submit">Send Message</button>
+  </form>
+</body>
+</html>
